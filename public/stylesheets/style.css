@@ -1,6 +1,21 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.jumbotron {
+  background-image: url('/../images/mountain-background.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.half-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 240px;
+  width: 400px;
+  background-color: blue;
+  opacity: .2;
 }
 a {
   color: #00b7ff;

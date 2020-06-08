@@ -1,6 +1,12 @@
 extends layout
 
 block content
-	h1= title
-	p Welcome to #{title}
-	a(href='/todos').btn.btn-success.btn-lg View all todos
+    .jumbotron.jumbotron-fluid
+        h1.display-4 To Do List
+        p.lead
+            | Sunday June 7th, 2020
+        div.half-container
+    .container
+        h1= title
+        p Welcome to #{title}
+        a(href='/todos').btn.btn-success.btn-lg View all todos
